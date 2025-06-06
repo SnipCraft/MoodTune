@@ -1,0 +1,81 @@
+/* Default Light Theme */
+:root {
+  --bg-color: #b6f4ff;
+  --text-color: #0522c2;
+  --btn-bg: #b6f4ff;
+  --btn-text: #000000;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --bg-color: #020146;
+  --text-color: #dcfaff;
+  --btn-bg: #020146;
+  --btn-text: #02005d;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--btn-bg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#title-box {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 30px 40px;
+  border: none;
+  margin: 10px;
+  
+  color: var(--btn-text);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #cccccc;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mood-buttons {
+  margin-top: 20px;
+}
+
+.song-link {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 8px 0;
+  display: inline-block;
+}
+
+.song-link:hover {
+  text-decoration: underline;
+  color: #007bff;
+}

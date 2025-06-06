@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MoodTune</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="title-box">
+      <p align="center"><font face="Lucida Calligraphy" size="7"><b>MoodTune🎵</b></font></p>
+      <p align="center"><font face="Lucida Calligraphy" size="5">Your Mood Your Tune...</font></p>
+    </div>
+    <button id="toggleTheme">🌙 Dark Mode</button>
+  </header>
+
+  <main>
+    <h2>Select your current mood:</h2>
+
+    <div class="mood-buttons">
+      <button class="mood" data-mood="happy">😊 Happy</button>
+      <button class="mood" data-mood="sad">😢 Sad</button><br>
+      <button class="mood" data-mood="energetic">🔥 Energetic</button>
+      <button class="mood" data-mood="calm">🌧️ Calm</button>
+    </div>
+
+    <section id="recommendations" style="display:none;">
+      <h2>Recommended Songs 🎶</h2>
+      <div id="songs" class="song-list"></div>
+    </section>
+    
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
