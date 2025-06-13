@@ -47,7 +47,7 @@ MoodTune/
 
 ---
 
-## 🔗 LINK
+## 🔗 LIVE PROJECT LINK
 
 - Link : https://byaditi.github.io/MoodTune
   
