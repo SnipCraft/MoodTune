@@ -1,4 +1,4 @@
-/* Default Light Theme */
+/* === Theme Variables === */
 :root {
   --bg-color: #b6f4ff;
   --text-color: #0522c2;
@@ -6,7 +6,6 @@
   --btn-text: #000000;
 }
 
-/* Dark Theme */
 [data-theme="dark"] {
   --bg-color: #020146;
   --text-color: #dcfaff;
@@ -14,35 +13,37 @@
   --btn-text: #02005d;
 }
 
-/* === Landing Page Styles === */
+/* === Landing Page Styling === */
 body.landing-page {
+  margin: 0;
+  height: 100vh;
+  background-color: var(--bg-color);
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-color);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
   text-align: center;
   transition: background 0.3s, color 0.3s;
 }
 
 .logo-wrapper {
-  animation: fadeIn 2s ease-in-out forwards;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 .logo {
   width: 30vw;
   max-width: 300px;
   height: auto;
+  margin: 0 auto;
 }
 
-/* Optional fade-in animation */
+/* === Optional Animation === */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -52,54 +53,4 @@ body.landing-page {
     opacity: 1;
     transform: scale(1);
   }
-}
-
-/* General Styles (for other pages) */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background: var(--btn-bg);
-}
-
-#title-box {
-  display: flex;
-  flex-direction: column;
-}
-
-button {
-  padding: 30px 40px;
-  border: none;
-  margin: 10px;
-  color: var(--btn-text);
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-button:hover {
-  background: #cccccc;
-}
-
-main {
-  padding: 2rem;
-  text-align: center;
-}
-
-.mood-buttons {
-  margin-top: 20px;
-}
-
-.song-link {
-  font-size: 1.1rem;
-  color: var(--text-color);
-  text-decoration: none;
-  margin: 8px 0;
-  display: inline-block;
-}
-
-.song-link:hover {
-  text-decoration: underline;
-  color: #007bff;
 }
