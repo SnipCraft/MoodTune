@@ -33,7 +33,10 @@
 
 MoodTune/
 │
-├── index.html              # Main HTML page
+├── index.html              # Landing page
+├── home.html               # Starting page
+├── MoodTune.html           # Main HTML page
+├── logo.gif                # Logo
 ├── style.css               # Styling (light/dark mode, layout)
 ├── script.js               # JavaScript (toggle + mood logic)
 
