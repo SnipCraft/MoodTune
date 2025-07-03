@@ -52,7 +52,7 @@ MoodTune/
 
 ## 🔗 LIVE PROJECT LINK
 
-- Link : https://byaditi.github.io/MoodTune
+- Link : https://snipcraft.github.io/MoodTune
   
 ---
 
