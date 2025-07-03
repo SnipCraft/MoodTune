@@ -53,10 +53,4 @@ MoodTune/
 ## 🔗 LIVE PROJECT LINK
 
 - Link : https://snipcraft.github.io/MoodTune
-  
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
